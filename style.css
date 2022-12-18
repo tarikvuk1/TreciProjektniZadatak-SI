@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+        body {
+            background-color: #4b4b4b;
+            font-family: 'Ubuntu';
+        }
+        
+        .container {
+            display: flex;
+            width: 100%;
+            height: 100%;
+            margin-top: 10%;
+            align-content: center;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .scores {
+            display: flex;
+            width: 100%;
+            justify-content: space-around;
+            margin-bottom: 30px;
+        }
+        
+        .players {
+            display: flex;
+            width: 100%;
+            justify-content: space-around;
+            margin-bottom: 15px;
+        }
+        
+        .btns {
+            display: flex;
+            width: 100%;
+            justify-content: space-around;
+            margin-top: 15%;
+        }
+        
+        .choice {
+            width: 90px;
+            height: 40px;
+            font-size: large;
+        }
+        
+        .rock {
+            background-color: #0042ad;
+            color: white;
+        }
+        
+        .paper {
+            background-color: #E60965;
+            color: white;
+        }
+        
+        .scissors {
+            background-color: #14bc30;
+            color: white;
+        }
+        .reset {
+        width: 103px;
+        height: 40px;
+        background-color: #080205;
+        color: white;
+        margin-top: 4%;
+    }
+ 
